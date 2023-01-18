@@ -64,3 +64,16 @@ function getCapitalized(name) {
   // capitalized version of name (example: "alEX" becomes "Alex")
   return name[0].toUpperCase() + name.substring(1).toLocaleLowerCase();
 }
+
+const age = document.querySelector("#your-age");
+const nextAge = document.querySelector("#next-age");
+
+age.addEventListener("keyup", () => {
+  nextAge.textContent = getNextAge(age.value);
+});
+
+function getNextAge(age) {
+  return parseInt(age) + 1;
+}
+
+const nunmber = document.querySelector();

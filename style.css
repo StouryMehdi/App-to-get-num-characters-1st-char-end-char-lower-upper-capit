@@ -26,6 +26,7 @@
 
 * {
   font-weight: thin;
+  font-size: 18px;
 }
 
 body {
@@ -37,6 +38,9 @@ h1 {
   font-weight: 600;
 }
 
+p {
+  line-height: 30px;
+}
 .navbar {
   background-color: rgba(0, 0, 0, 0.161);
   box-shadow: 0px 3px 7px 1px var(--neutral-2);
@@ -215,7 +219,6 @@ header {
   margin: 15px;
   text-align: center;
   font-size: 1.8em;
-  font-weight: thin;
 }
 
 #sidebar ul {
@@ -239,4 +242,10 @@ header {
   position: relative;
   color: #4d4e53;
   text-decoration: none;
+}
+
+.n-1-age {
+  max-width: 900px;
+  margin: 0 auto;
+  padding: 50px;
 }
