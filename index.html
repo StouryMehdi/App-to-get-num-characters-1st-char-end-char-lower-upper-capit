@@ -7,7 +7,7 @@
     <title>Document</title>
     <link rel="stylesheet" href="style.css" />
   </head>
-  <body>
+  <div>
     <nav class="navbar">
       <img src="./Costa Spa.png" alt="" />
       <ul>
@@ -46,6 +46,47 @@
       </ul>
     </nav>
 
+    <div id="sidebar">
+      <header>JS Documentation</header>
+      <ul>
+        <li><a class="nav-link" href="#Introduction">Introduction</a></li>
+        <li>
+          <a class="nav-link" href="#What_you_should_already_know"
+            >What you should already know</a
+          >
+        </li>
+        <li>
+          <a class="nav-link" href="#JavaScript_and_Java"
+            >JavaScript and Java</a
+          >
+        </li>
+        <li><a class="nav-link" href="#Hello_world">Hello world</a></li>
+        <li><a class="nav-link" href="#Variables">Variables</a></li>
+        <li>
+          <a class="nav-link" href="#Declaring_variables"
+            >Declaring variables</a
+          >
+        </li>
+        <li><a class="nav-link" href="#Variable_scope">Variable scope</a></li>
+        <li>
+          <a class="nav-link" href="#Global_variables">Global variables</a>
+        </li>
+        <li><a class="nav-link" href="#Constants">Constants</a></li>
+        <li><a class="nav-link" href="#Data_types">Data types</a></li>
+        <li>
+          <a class="nav-link" href="#if...else_statement"
+            >if...else statement</a
+          >
+        </li>
+        <li><a class="nav-link" href="#while_statement">while statement</a></li>
+        <li>
+          <a class="nav-link" href="#Function_declarations"
+            >Function declarations</a
+          >
+        </li>
+        <li><a class="nav-link" href="#Reference">Reference</a></li>
+      </ul>
+    </div>
     <main class="container">
       <div id="inpu">
         <label class="label" for="component-name">Enter your name</label>
@@ -93,76 +134,36 @@
         </tbody>
       </table>
     </main>
-
-    <div id="sidebar">
-      <header>JS Documentation</header>
-      <ul>
-        <li><a class="nav-link" href="#Introduction">Introduction</a></li>
-        <li>
-          <a class="nav-link" href="#What_you_should_already_know"
-            >What you should already know</a
-          >
-        </li>
-        <li>
-          <a class="nav-link" href="#JavaScript_and_Java"
-            >JavaScript and Java</a
-          >
-        </li>
-        <li><a class="nav-link" href="#Hello_world">Hello world</a></li>
-        <li><a class="nav-link" href="#Variables">Variables</a></li>
-        <li>
-          <a class="nav-link" href="#Declaring_variables"
-            >Declaring variables</a
-          >
-        </li>
-        <li><a class="nav-link" href="#Variable_scope">Variable scope</a></li>
-        <li>
-          <a class="nav-link" href="#Global_variables">Global variables</a>
-        </li>
-        <li><a class="nav-link" href="#Constants">Constants</a></li>
-        <li><a class="nav-link" href="#Data_types">Data types</a></li>
-        <li>
-          <a class="nav-link" href="#if...else_statement"
-            >if...else statement</a
-          >
-        </li>
-        <li><a class="nav-link" href="#while_statement">while statement</a></li>
-        <li>
-          <a class="nav-link" href="#Function_declarations"
-            >Function declarations</a
-          >
-        </li>
-        <li><a class="nav-link" href="#Reference">Reference</a></li>
-      </ul>
+    <div class="val-enter">
+      <main class="n-1-age">
+        <div style="display: inline-grid">
+          <label class="label" for="component-name">Enter age</label>
+          <input
+            type="number"
+            class="input"
+            placeholder="Enter age"
+            id="your-age"
+            min="0"
+            max="120"
+            autocomplete="off"
+          />
+          <p>Next year, you will be <span id="next-age"></span>.</p>
+        </div>
+      </main>
+      <main class="n-1-age">
+        <div style="display: inline-grid">
+          <label class="label" for="component-name">Enter number</label>
+          <input
+            type="number"
+            class="input"
+            placeholder="Enter number"
+            id="your-number"
+            autocomplete="off"
+          />
+          <p>Division remainder by 2 is <span id="output"></span></p>
+        </div>
+      </main>
     </div>
-    <main class="n-1-age">
-      <div style="display: inline-grid">
-        <label class="label" for="component-name">Enter age</label>
-        <input
-          type="number"
-          class="input"
-          placeholder="Enter age"
-          id="your-age"
-          min="0"
-          max="120"
-          autocomplete="off"
-        />
-        <p>Next year, you will be <span id="next-age"></span>.</p>
-      </div>
-    </main>
-    <main class="n-1-age">
-      <div style="display: inline-grid">
-        <label class="label" for="component-name">Enter number</label>
-        <input
-          type="number"
-          class="input"
-          placeholder="Enter number"
-          id="your-number"
-          autocomplete="off"
-        />
-        <p>Division remainder by 2 is <span id="output"></span>.</p>
-      </div>
-    </main>
     <script src="index.js"></script>
   </body>
 </html>

@@ -76,4 +76,15 @@ function getNextAge(age) {
   return parseInt(age) + 1;
 }
 
-const nunmber = document.querySelector();
+const number = document.querySelector("#your-number");
+const output = document.querySelector("#output");
+
+number.addEventListener("keyup", () => {
+  output.textContent = getDivisionRemainderBy2(
+    Number.parseInt(number.value, 10)
+  );
+});
+
+function getDivisionRemainderBy2(number) {
+  return number % 2;
+}

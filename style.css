@@ -147,6 +147,7 @@ input:not(.btn):focus {
 .table {
   width: 100%;
   border-collapse: collapse;
+  margin-bottom: 3rem;
 }
 
 .table th {
@@ -160,10 +161,6 @@ input:not(.btn):focus {
   padding: 10px;
   font-size: 18px;
   border: 1px solid white;
-}
-
-main {
-  display: flex;
 }
 
 .table tbody tr:nth-child(2n) {
@@ -206,8 +203,7 @@ li:hover ul#submenu {
   line-height: 1.5;
   position: fixed;
   padding-left: 5px;
-  min-width: 15%;
-  top: 175px;
+  top: 115px;
   left: 0px;
   border-right: solid;
   border-color: rgba(0, 22, 22, 0.4);
@@ -248,4 +244,10 @@ header {
   max-width: 900px;
   margin: 0 auto;
   padding: 50px;
+  border: solid 1px;
+}
+
+.val-enter {
+  display: inline-flex;
+  margin-left: 35rem;
 }
